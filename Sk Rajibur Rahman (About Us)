@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0059b3;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .team {
+      margin-top: 40px;
+    }
+
+    .team h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .team-member {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About Us</h1>
+  </header>
+
+  <div class="container">
+    <p>Welcome to <strong>NuraTrip</strong>! We are dedicated to delivering high-quality solutions with integrity and passion. Since our founding, we’ve been committed to innovation, customer satisfaction, and creating long-term value.</p>
+
+    <p>Our team of experienced professionals brings expertise from various fields to ensure we meet and exceed our clients' expectations. We believe in transparency, collaboration, and continuous improvement.</p>
+
+    <div class="team">
+      <h2>Meet the Team</h2>
+
+      <div class="team-member">
+        <strong>name</strong><br>
+        Founder & CEO
+        <p>ABC leads our vision with 10+ years of experience in tech and leadership.</p>
+      </div>
+
+      <div class="team-member">
+        <strong>Head name</strong><br>
+        Head of Operations
+        <p>ABC ensures everything runs smoothly and efficiently across all departments.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
